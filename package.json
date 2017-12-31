@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "css": "tailwind build tail.css -c tail.js -o public/tail.css",
-    "deploy": " react-scripts build && cd build && surge -p . --domain  https://tailwind.surge.sh && cd .. && git commit -am 'auto push while deploying' && git push origin master"
+    "deploy": " react-scripts build && cd build && surge -p . --domain  https://tailwind.surge.sh && cd .. && git add . &&  git commit -am 'auto push while deploying' && git push origin master"
   },
   "devDependencies": {
     "tailwindcss": "^0.4.0"
