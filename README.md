@@ -11,9 +11,7 @@ Needless to say, that it has been made by a developer (not designer), so there i
 But, if you would like to contribute to this, please feel free to make PR.
 
 
-
-
-Thanks,...
-Suman Shrestha,...
-Laravelmonster@gmail.com,...
+Thanks
+Suman Shrestha
+Laravelmonster@gmail.com
 https://laravelnepal.com
