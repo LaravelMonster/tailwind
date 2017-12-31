@@ -14,11 +14,23 @@
 </head>
 
 <body class="bg-blue-darkest">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   <div id="root" class="bg-grey-lightest"></div>
   <div class="flex justify-between w-full p-8">
     <a href="https://m.do.co/c/ebae92445c05" target="_blank" class="italic no-underline text-teal">Sign Up @digitalocean.com</a>
     <a href="https://github.com/LaravelMonster/tailwind" target="_blank" class="italic no-underline text-teal">@github</a>
     <a href="https://laravelnepal.com" target="_blank" class="italic no-underline text-teal">Laravel Nepal</a>
+    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+    <a target="popup" onclick="window.open('https://twitter.com/intent/tweet?text=Check out '+window.location.href,'popup','width=600,height=250'); return false;" class="twitter-share-button bg-blue no-underline rounded  py-2 px-4 text-white"
+      href="https://twitter.com/intent/tweet?text=Hello%20world">
+      <i class="fa fa-twitter"></i> Tweet</a>
   </div>
 </body>
 
