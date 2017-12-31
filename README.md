@@ -6,12 +6,21 @@ For now it has been hosted at [https://tailwind.surge.sh](https://tailwind.surge
 
 It contains a list of flex implemented boxes that I have found over the internet and are usefull in my projects. 
 
+Installation
+
+git clone https://github.com/LaravelMonster/tailwind.git
+
+yarn
+
+yarn start
+
+that's it.
+
 Needless to say, that it has been made by a developer (not designer), so there is a chance that you may not like color combinations or anything at all.
 
 But, if you would like to contribute to this, please feel free to make PR.
 
 
-Thanks
 Suman Shrestha
 Laravelmonster@gmail.com
 https://laravelnepal.com
