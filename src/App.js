@@ -11,6 +11,10 @@ import Grid from './pages/grid';
 import Top from './pages/top';
 import Contact from './pages/contact';
 import Single from './pages/single';
+import Services from './pages/services';
+import Blog from './pages/blog';
+import KeyFeatures from './pages/key-features';
+import Projects from './pages/projects';
 
 export default (props) => {
   return <Switch>
@@ -24,6 +28,10 @@ export default (props) => {
     <Route exact path='/top' component={Top} />
     <Route exact path='/widget-2' component={Widget2} />
     <Route exact path='/contact' component={Contact} />
+    <Route exact path='/blog' component={Blog} />
+    <Route exact path='/services' component={Services} />
     <Route exact path='/single' component={Single} />
+    <Route exact path='/key-features' component={KeyFeatures} />
+    <Route exact path='/projects' component={Projects} />
   </Switch>;
 }

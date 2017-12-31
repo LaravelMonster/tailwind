@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => <div className="animated fadeIn box flex flex-wrap flex-shrink m-2 sm:m-4 lg:md-8">
+export default props => <div className="animated fadeIn box flex flex-wrap justify-between p-8">
     <div className="w-full mb-2 sm:mb-0 sm:w-1/2 md:w-1/3 lg:w-1/4 sm:p-1 md:p-2">
         <div className=" p-8 border-grey border shadow-lg rounded">
             <h3 className="border-b-2 text-grey-darkest border-red-dark py-2 mb-4 ">Long Title 1</h3>

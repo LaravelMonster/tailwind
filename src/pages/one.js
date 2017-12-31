@@ -1,5 +1,6 @@
 import React from 'react'
 import Item from '../components/item';
+
 const array = [
     { link: 'pricing', image: '/images/pricing.png', text: 'Pricing' },
     { link: 'news', image: '/images/news-tab.png', text: 'News tab' },
@@ -11,7 +12,12 @@ const array = [
     { link: 'widget-2', image: '/images/recent-highlights.png', text: 'Recent Highlights' },
     { link: 'contact', image: '/images/contact.png', text: 'Contact' },
     { link: 'single', image: '/images/single.png', text: 'Single' },
+    { link: 'key-features', image: '/images/key-features.png', text: 'Key features' },
+    { link: 'blog', image: '/images/blog.png', text: 'Blog' },
+    { link: 'services', image: '/images/serices.png', text: 'Services' },
+    { link: 'projects', image: '/images/download.png', text: 'Projects' },
 ];
+
 const TemplateWrapper = ({ children }) => (
     <div className="w-full animated fadeIn p-8">
         <div className="flex flex-wrap">

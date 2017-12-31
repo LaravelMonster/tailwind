@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default props => (
-    <div className="max-w-sm">
-        <div className="animated fadeIn p-8 flex flex-wrap mx-auto border border-grey-darkest m-8 border-t-4 rounded shadow">
+    <div className="flex flex-wrap justify-center p-8">
+        <div className="w-1/3 animated fadeIn p-8 flex flex-wrap mx-auto border border-grey-darkest m-8 border-t-4 rounded shadow">
             <h2 className="text-grey-darkest"><i className="fa fa-calendar-check-o text-grey"></i> Recent Highlights</h2>
             <ul className="list-reset my-2">
                 <li class="flex justify-between border-b my-2 border-grey-darkest">

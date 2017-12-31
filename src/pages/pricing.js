@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => <div className="animated fadeIn box w-full sm:block bg-no-repeat pt-8" style={{ backgroundImage: 'url(/green-gradient.jpg)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
+export default (props) => <div className="animated fadeIn box w-full sm:block bg-no-repeat pt-8" style={{ backgroundImage: 'url(/green-gradient.jpg)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
     <div className="flex flex-wrap max-w-xl mx-auto mb-8">
         <div className="w-full px-8 sm:px-0 sm:w-1/3 py-8">
             <div className="header border-b-2 mt-2 rounded-none sm:rounded-tl-lg bordery-grey bg-grey-darker py-3">

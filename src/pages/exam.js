@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default props => (<div className="animated fadeIn box flex flex-wrap max-w-lg mx-auto inline border-2 border-red p-8 m-8 rounded-sm questions">
+export default props => (<div className="animated fadeIn box flex flex-wrap justify-center p-8">
+    <div className="border-2 border-red rounded-sm questions p-8 w-3/5">
     <div className="w-full flex justify-between border-b-2 border-red pb-6 header-question">
         <p className="text-grey-darkest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi, fugit deleniti animi maxime velit dolorem
-facere sint repellendus alias molestias officia sed aperiam quos temporibus aut mollitia nihil autem.</p>
+            facere sint repellendus alias molestias officia sed aperiam quos temporibus aut mollitia nihil autem.</p>
         <p>
             <i title="This place will provide lots of hint" className="fa cursor-pointer fa-info-circle text-red"></i>
         </p>
@@ -35,5 +36,6 @@ facere sint repellendus alias molestias officia sed aperiam quos temporibus aut 
         <a href="" className="py-2 px-4 rounded-sm no-underline bg-red-dark text-grey-light">Prev</a>
         <a href="" className="bg-red p-2 px-3 rounded-full text-white no-underline">2</a>
         <a href="" className="py-2 px-4 rounded-sm no-underline bg-red-dark text-grey-light">Next</a>
+    </div>
     </div>
 </div>);
