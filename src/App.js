@@ -10,6 +10,7 @@ import Widget2 from './pages/widget-2';
 import Grid from './pages/grid';
 import Top from './pages/top';
 import Contact from './pages/contact';
+import Single from './pages/single';
 
 export default (props) => {
   return <Switch>
@@ -23,5 +24,6 @@ export default (props) => {
     <Route exact path='/top' component={Top} />
     <Route exact path='/widget-2' component={Widget2} />
     <Route exact path='/contact' component={Contact} />
+    <Route exact path='/single' component={Single} />
   </Switch>;
 }

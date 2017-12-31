@@ -10,6 +10,7 @@ const array = [
     { link: 'top', image: '/images/top-header.png', text: 'Top Header' },
     { link: 'widget-2', image: '/images/recent-highlights.png', text: 'Recent Highlights' },
     { link: 'contact', image: '/images/contact.png', text: 'Contact' },
+    { link: 'single', image: '/images/single.png', text: 'Single' },
 ];
 const TemplateWrapper = ({ children }) => (
     <div className="w-full animated fadeIn p-8">
