@@ -14,6 +14,9 @@ But, if you would like to contribute to this, please feel free to make PR.
 
 
 Thanks,
+
 Suman Shrestha,
+
 Laravelmonster@gmail.com,
+
 https://laravelnepal.com
