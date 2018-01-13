@@ -14,7 +14,7 @@ export default props => (
 nibh vel velit auctor</p>
         </div>
         <div className="projects-container flex flex-wrap p-8">
-            <div className="w-1/3 p-8">
+            <div className="w-full md:w-1/2 lg:w-1/3 py-2 md:p-2">
                 <div className="flex flex-wrap relative">
                     <div style={{ backgroundColor: '#fafdfce0' }} className="w-full py-8 flex flex-wrap justify-center absolute pin-b ">
                         <h4 className="w-full text-normal md:text-3xl  font-normal text-center">Apartment in Boston</h4>
@@ -25,7 +25,7 @@ nibh vel velit auctor</p>
                         alt="" />
                 </div>
             </div>
-            <div className="w-1/3 p-8">
+            <div className="w-full md:w-1/2 lg:w-1/3 py-2 md:p-2">
                 <div className="flex flex-wrap relative">
                     <div style={{ backgroundColor: '#fafcfce0' }} className="w-full py-8 flex flex-wrap justify-center absolute pin-b ">
                         <h4 className="w-full text-normal md:text-3xl  font-normal text-center">Hospital in china</h4>
@@ -36,7 +36,7 @@ nibh vel velit auctor</p>
                         alt="" />
                 </div>
             </div>
-            <div className="w-1/3 p-8">
+            <div className="w-full md:w-1/2 lg:w-1/3 py-2 md:p-2">
                 <div className="flex flex-wrap relative">
                     <div style={{ backgroundColor: '#fafcfce0' }} className="w-full py-8 flex flex-wrap justify-center absolute pin-b ">
                         <h4 className="w-full text-normal md:text-3xl  font-normal text-center">Bank building in japan</h4>

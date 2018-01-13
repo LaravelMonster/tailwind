@@ -1,7 +1,7 @@
 import React from 'react';
 export default props => (
     <div class="flex flex-wrap justify-center">
-        <div class="w-1/3 p-8 animated fadeIn">
+        <div class="w-full max-w-sm p-8 animated fadeIn">
             <div class="p-2">
                 <div className="border shadow">
                     <div className="w-full relative">

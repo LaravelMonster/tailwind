@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default props => (<div className="animated fadeIn box flex flex-wrap justify-center p-8">
-    <div class="w-2/5 flex flex-wrap border border-red rounded-sm shadow-lg bg-grey-lightest  border-t-4 p-8">
+    <div class="max-w-sm flex flex-wrap border border-red rounded-sm shadow-lg bg-grey-lightest  border-t-4 p-8">
         <div className="w-full text-center">
             <h3 className="text-grey-darkest">Log In</h3>
         </div>

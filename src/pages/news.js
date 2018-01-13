@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default props => (<div className="animated  fadeIn box flex flex-wrap justify-center py-8">
-    <div className="w-1/4 p-4 text-grey  bg-grey-lighter border shadow border-grey ">
+export default props => (<div className="animated  fadeIn box flex flex-wrap justify-center px-8 py-8">
+    <div className="w-full  max-w-xs p-4 text-grey  bg-grey-lighter border shadow border-grey ">
         <div className="header flex justify-between border-b-2 pb-2 border-grey">
             <a href="" className="no-underline text-grey-darker px-4 py-2">Top</a>
             <a href="" className="no-underline border-l-2 border-grey  px-4 py-2 text-grey-darker pl-6">Most views</a>
